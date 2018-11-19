@@ -1,0 +1,22 @@
+
+ul {
+    list-style: decimal;
+}
+
+li {
+    height: 30px;
+}
+
+
+.marvel {
+    color: #dc0100;
+}
+
+.DC {
+    color: #1d21ff;
+}
+
+#promote {
+    color: #1aff14;
+}
+
