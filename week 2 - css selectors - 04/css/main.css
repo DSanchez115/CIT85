@@ -1,0 +1,25 @@
+body {
+  font-size: 36px;
+  text-align: center;
+  padding-top: 36px;
+}
+
+div p {
+  color: blue;
+  font-weight: bold;
+}
+
+div > p {
+  color: purple;
+  font-weight: bold;
+}
+
+div ~ p {
+  color: yellow;
+  font-weight: bold;
+}
+
+div + p {
+  color: green;
+  font-weight: bold;
+}
