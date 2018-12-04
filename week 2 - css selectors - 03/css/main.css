@@ -1,0 +1,14 @@
+p {
+  margin: 20px;
+}
+
+p::first-letter {
+  font-family: cursive;
+  font-size: 36px;
+  line-height: .5;
+}
+
+p::first-line {
+  color: gold;
+  font-weight: bold;
+}
