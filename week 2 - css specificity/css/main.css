@@ -1,0 +1,57 @@
+/* 1.      0-0-1                  */
+body {
+  font-size: 36px;
+  text-align: center;
+  padding-top: 36px;
+}
+
+/* 2.      0-0-1                  */
+p {
+  height: auto;
+  border: 10px dotted black;
+}
+
+/* 3.      0-0-1                  */
+div {
+  height: auto;
+  border: 10px double orange;
+}
+
+/* 4.       1-2-1                */
+body #divclass .divp:hover {
+  font-style: italic;
+  color: yellow;
+}
+
+/* 5.      2-2-1                */
+html body #divclass .divp:last-child {
+  font-style: normal;
+  font-size: 100px;
+  background-color: purple;
+}
+
+/* 6.       0-0-3                */
+html body p {
+  height: auto;
+  border: 10px ridge blue;
+}
+
+/* 7.      1-2-0                */
+#divclass .divp:first-child {
+  background-color: green;
+}
+
+/* 8.       0-1-0                */
+.divp {
+  background-color: red;
+}
+
+/* 9.       1-0-0                */
+#divclass {
+  border: 25px double black;
+}
+
+/* 10.       0-1-1                */
+h1:hover{
+  background-color: pink;
+}
