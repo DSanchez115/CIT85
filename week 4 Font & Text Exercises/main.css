@@ -1,0 +1,51 @@
+body {
+  background-color: powderblue;
+  letter-spacing: 2px;
+}
+
+h1 {
+  text-shadow: 2px 2px gray;
+  font-family: 'Charmonman', cursive;
+  font-weight: 800;
+  font-size: 50px;
+}
+
+.p1, .p2, .p3 {
+  text-indent: 20px;
+}
+
+.p1, .p2, .p3::first-letter {
+  text-transform: uppercase;
+  font-style: italic;
+}
+
+.p1 {
+  font-family: 'Charmonman', cursive;
+  font-weight: 800;
+  font-size: 20px;
+}
+
+.p2 {
+  font: "Times New Roman", Times, serif;
+  font-size: 20px;
+}
+
+.p3 {
+  font: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+a {
+  font-size: 30px;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.qoute::first-line {
+  text-transform: uppercase;
+  font-style: italic;
+  font-size: 15px;
+}
