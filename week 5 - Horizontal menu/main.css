@@ -1,0 +1,19 @@
+a {
+  text-decoration:none;
+  padding: 10px;
+  border: 2px solid red;
+  border-radius: 50px;
+  display: inline-block;
+}
+
+li {
+  font-size: 2rem;
+  border: 2px solid red;
+  border-radius: 50px;
+  display: inline-block;
+  list-style: none;
+}
+
+li:hover {
+  background-color: purple;
+}
