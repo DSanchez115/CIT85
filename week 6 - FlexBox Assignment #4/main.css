@@ -1,0 +1,51 @@
+
+
+.main {
+  display: flex;
+  flex-flow: row wrap;
+  border: 2px solid red;
+  justify-content: center;
+  width: 50%;
+  height: 50%;
+  margin: 0 auto;
+}
+
+.div1 {
+  height: 100px;
+  width: 200px;
+  flex-basis: 60%;
+  flex-grow: 2;
+  background-color: blue;
+}
+
+.div2 {
+  height: 100px;
+  width: 200px;
+  flex-basis: 40%;
+  flex-grow: 1;
+  background-color: green;
+}
+
+.div3 {
+  height: 100px;
+  width: 200px;
+  flex-basis: 33%;
+  flex-grow: 1;
+  background-color: black;
+}
+
+.div4 {
+  height: 100px;
+  width: 200px;
+  flex-basis: 33%;
+  flex-grow: 1;
+  background-color: grey;
+}
+
+.div5 {
+  height: 100px;
+  width: 200px;
+  flex-basis: 33%;
+  flex-grow: 1;
+  background-color: dodgerblue;
+}
