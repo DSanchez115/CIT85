@@ -1,0 +1,21 @@
+body {
+  display: flex;
+  flex-flow: row wrap;
+  border: 5px solid red;
+  height: 700px;
+}
+
+div {
+  height: 100px;
+  width: 200px;
+  background: teal;
+  border: 2px solid black;
+  text-align: center;
+  font-weight: bold;
+  margin: 1em;
+  flex-grow: 1;
+}
+
+.div20 {
+  flex-grow: 2;
+}
