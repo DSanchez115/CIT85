@@ -1,0 +1,27 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 200px;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.div1 {
+  height: 100%;
+  width: 15%;
+  background-color: palegreen;
+}
+
+.div2 {
+  height: 100px;
+  width: 85%;
+  background-color: lightblue;
+}
+
+.div3 {
+  height: 100px;
+  width: 85%;
+  background-color: grey;
+}
