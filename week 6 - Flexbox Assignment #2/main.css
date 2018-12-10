@@ -1,0 +1,17 @@
+body {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+div {
+  border: 2px solid black;
+  height: 400px;
+}
+
+.div1 {
+  flex-grow: 1;
+}
+
+.div2 {
+  flex-grow: 2;
+}
