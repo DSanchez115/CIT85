@@ -1,0 +1,37 @@
+body {
+  display: flex;
+  flex-flow: row wrap;
+  flex-direction: row;
+  font-weight: bold;
+  text-align: center;
+  font-size: 25px;
+}
+
+div {
+  height: 100px;
+}
+
+.div1 {
+  background-color: orangered;
+  width: 100%;
+}
+
+.div2 {
+  background-color: blue;
+  width: 50%
+}
+
+.div3 {
+  background-color: green;
+  width: 50%
+}
+
+.div4 {
+  background-color: yellow;
+  width: 50%
+}
+
+.div5 {
+  background-color: purple;
+  width: 50%
+}
