@@ -1,0 +1,27 @@
+header {
+  height: 100px;
+  width: 100%;
+  background-color: palegreen;
+}
+
+.div1 {
+  height: 200px;
+  width: 100%;
+  background-color: purple;
+}
+
+.div2 {
+  height: 400px;
+  width: 100%;
+  background-color: orangered;
+}
+
+footer {
+  height: 200px;
+  width: 100%;
+  background: skyblue;
+  background: rgba(0, 0, 255, .7);
+  position: fixed;
+  right: 0;
+  bottom: 0;
+}
