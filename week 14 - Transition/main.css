@@ -1,0 +1,25 @@
+html, body, div {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+
+div {
+    margin-top: 100px;
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    background-color: skyblue;
+    border: 4px dotted black;
+}
+
+div:hover {
+    background-color: plum;
+}
+
+.trans {
+    transition-property: all;
+    transition-duration: 3s;
+    transition-timing-function: ease;
+}
