@@ -1,0 +1,37 @@
+body, html, header, aside, footer {
+  padding: 0;
+  border: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+header, aside, footer {
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+}
+
+header {
+  background-color: orangered;
+}
+
+.div1 {
+  background-color: skyblue;
+}
+
+.aside1 {
+  background-color: yellow;
+}
+
+.aside2 {
+  background-color: plum;
+}
+
+footer {
+  background-color: palegreen;
+}
