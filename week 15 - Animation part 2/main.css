@@ -1,0 +1,20 @@
+.animate {
+    margin-top: 100px;
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    border: 4px dotted black;
+    position: relative;
+    animation-name: change-color;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes change-color {
+  0%   {background-color:red; left:1px; top:1px;}
+  25%  {background-color:yellow; left:600px; top:10px;}
+  50%  {background-color:blue; left:800px; top:200px;}
+  75%  {background-color:green; left:1000px; top:200px;}
+  100% {background-color:red; left:1px; top:1px;}
+}
